@@ -3,7 +3,7 @@ from google import genai
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TELEGRAM_TOKEN = "8903437828:AAGkTyJNrJuZJo2MgVohQIx76tKwyw3k7zw"
+TELEGRAM_TOKEN = "8903437828:AAEDQ7kRMl3AVd-OhcvLFOxj7I8cCO2bQik"
 GEMINI_API_KEY = os.environ.get("GeminiKey")
 
 AUTHORIZED_USERS = [8140325800, 8928784383]
